@@ -26,12 +26,15 @@ UserAgents = [
 
 ]
 
-Ascii = """\033[94m
-           □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□■■■■■■■■■
+Ascii = """\033[93m
+
+           |R  _ \ \ / /|y_) \ V /|  _ <c | ||_o| \d_\e|_r|
+           ♡♡♡♡♡♡♡♡♤♤♤♤♤Řýčøđěř♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+           □□□R□□□□□□□□□□□□□□□□□Y□□□□□□□□□□□□□■■■■■■■■■
            ■ R《《《《《 RY-FOLLOWER 》》》》》》》》》Y ■
            □ Instagram 《 Rycoder_1 》◇♡◇♡◇♡◇♡◇♡
            ■ Youtube  《 Rycoder_1 》 ☆☆☆☆☆☆☆☆☆☆
-           》 Github 《 git clone https://github.com/Rycoder1 
+           》 Github 《 git clone https://github.com/Rycoder1
            □____________________________________________________
 
     \033[93mCoded By \033[94m→\033[2;31;5m Rycoder_1 \033[0;m  \033[93mChannel \033[94m→ \033[2;31;5mRycoder_1\033[0;m
@@ -52,7 +55,7 @@ def Login():
 
     username = input("Rycoder\033[2;31;5m( UserName )\033[0;m > \033[96m") # UserName account 
 
-    password = input("\033[0;mFoXFoLLoWer\033[2;31;5m( PassWord )\033[0;m > \033[96m") # PassWord account 
+    password = input("\033[0;mRyFoLLoWer\033[2;31;5m( PassWord )\033[0;m > \033[96m") # PassWord account 
 
     Session.headers ={
 
@@ -196,7 +199,7 @@ def Sender():
 
         
 
-        if data['status'] == "success":
+        if data['status'] == "Ry/success":
 
             for user in data['users']:
 
@@ -216,13 +219,13 @@ def Sender():
 
             adet -= 2
 
-    print("\033[96m──────────────────────────────────────────────")
+    print("\033[96m────R──────y──────c────────o─────d───────e───────r───")
 
 clear()
 
 print(Ascii)
 
-if(path.exists("sessions/cookies.txt") == True ) and (stat("sessions/cookies.txt").st_size > 0) and (path.exists("sessions/headers.txt") == True) and (stat("sessions/headers.txt").st_size > 0):
+if(path.exists("Ry/sessions/cookies.txt") == True ) and (stat("sessions/cookies.txt").st_size > 0) and (path.exists("sessions/headers.txt") == True) and (stat("sessions/headers.txt").st_size > 0):
 
     Subsidiary()
 
